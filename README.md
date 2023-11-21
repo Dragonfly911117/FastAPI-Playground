@@ -1,4 +1,4 @@
-# FastAPI playground
+# FakeCDN
 
 ## Run
 
