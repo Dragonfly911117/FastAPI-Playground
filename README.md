@@ -10,7 +10,7 @@ uvicorn main:app --reload
 ```bash
 curl -X POST -F "file=@./test.txt" http://localhost:8000/FakeCDN/upload
 ```
-or Run the [test.http](/test.http) request with fixed file path
+or <br> Run the [test.http](/test.http) request with fixed file path
 
 ## Get file
 
