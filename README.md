@@ -1,22 +1,12 @@
 # FastAPI playground
 
-## Run
-
-```bash
-uvicorn main:app --reload
-```
-## Upload file
-
-```bash
-curl -X POST -F "file=@./test.txt" http://localhost:8000/FakeCDN/upload
-```
-or Run the [test.http](/test.http) request with fixed file path
-
-## Get file
-
-* http://localhost:8000/FakeCDN/all for listing all files
-* http://127.1:8000/FakeCDN/{id} for getting the file with id(0-indexed)
+Hi there! This is a playground for [FastAPI](https://fastapi.tiangolo.com/).
+Most of the code is written by copilot. I personally cannot code without it anymore.
+This repo is a reference to the NFT project.
 
 
-# Misc things
-The file uploaded is stored in the directory "/uploaded_files" and attached with a timestamp
+## Things have been done
+* [FakeCDN](https://github.com/Dragonfly911117/FastAPI_Test/tree/FakeCDN)
+
+
+## Stuff to be done
