@@ -8,10 +8,6 @@ from fastapi import FastAPI, File, UploadFile, APIRouter
 prefix = "/FakeCDN"
 router = APIRouter(prefix=prefix, tags=["FakeCDN"])
 
-@router.post("/files/")
-async def create_file(file: Annotated[bytes, File()]):
-    return {"file_size": len(file)}
-
 @router.post("/upload file/")
 async def create_upload_file(file: UploadFile):
     flag = saveFile(file)
