@@ -14,3 +14,5 @@ If you need one, just install PyCharm and have it do its magic.<br>
 
 
 ## Stuff to be done
+* JWT(JSON Web Token) Authentication
+* Logger
